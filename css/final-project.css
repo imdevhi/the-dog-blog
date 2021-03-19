@@ -33,14 +33,19 @@ nav a{
     font-size: 1.2em;
     padding: 10px 20px;
 }
- nav button{
+ 
+nav button{
     color: #ffffff;
     font-size: 1.2em;
     padding: 10px 20px;
     text-decoration: underline;
- }
+}
 
 #nav-link a:hover{
+    background-color: #004d4d;
+}
+
+#nav-link button:hover{
     background-color: #004d4d;
 }
 
