@@ -1,0 +1,354 @@
+/* RULES FOR ALL PAGES */
+
+/* body rules */
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}
+
+#all-body-content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+/* banner image */
+h1{
+    background-color: #009999;
+    background-image: url(../images/arya-header.png);
+    width: 800px;
+    height: 320px;
+    text-align: center;
+}
+
+/* navigation menu */
+nav{
+    background-color: #009999;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a{
+    color: #ffffff;
+    font-size: 1.2em;
+    padding: 10px 20px;
+}
+ nav button{
+    color: #ffffff;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    text-decoration: underline;
+ }
+
+#nav-link a:hover{
+    background-color: #004d4d;
+}
+
+/* nav dropdown item styling */
+.dropdown .button {
+    background-color: #009999;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.drop-items {
+    display: none;
+    position: absolute;
+    text-align: left;
+    background-color: #ffffff;
+    border: 2px solid #009999;
+    min-width: 140px;
+}
+
+  .drop-items a {
+    color: #004d4d;
+    font-size: 1em;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+
+.drop-items a:hover{
+    color: #ffffff;
+}
+
+.dropdown:hover .drop-items {
+    display: block;
+}
+
+/* footer */
+footer{
+    background-color: #009999;
+    padding: 20px;
+    color:#ffffff;
+    font-size: .8em;
+    text-align: center;
+    clear: both;
+}
+
+#socials a{
+    padding: 10px;
+}
+
+
+/* RULES FOR SPECIFC PAGES */
+
+/* homepage, about */
+main{
+    padding: 40px 40px 60px 40px;
+    border: 2px solid #009999;
+}
+
+#arya-photo{
+    width: 300px;
+    float: left;
+}
+
+#main-body{
+    margin-left: 350px;
+    padding: 0px 20px 30px 20px;
+    text-align: left;
+}
+
+#main-body h2{
+    font-size: 2.5em;
+    color:  #004d4d;
+    text-align: center;
+}
+
+#main-body a{
+    color: #000000;
+}
+
+#main-body a:hover{
+    color: #ffffff;
+    background-color: #009999;
+}
+
+#arya-facts h2{
+    color:  #004d4d;
+    font-size: 1.75em;
+    text-align: center;
+    font-style: italic;
+}
+
+#arya-facts{
+    text-align: left;
+    padding: 30px;
+    clear: left;
+}
+
+#arya-facts a{
+    color: #000000;
+}
+
+#arya-facts a:hover{
+    color: #ffffff;
+    background-color: #009999;
+}
+
+#arya-facts ul{
+    list-style-position: outside;
+    list-style-type: square;  
+    list-style-image: url(../images/paw-icon-12.png); 
+}
+
+#arya-facts li{
+    padding: 10px;
+}
+
+/* portfolio */
+#head-gallery{
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+#head-gallery h2{
+    font-size: 2.5em;
+    color:  #004d4d;
+    text-align: center;
+}
+
+#head-gallery p{
+    padding: 0px 50px;
+}
+
+#whole-gallery td{
+    padding: 20px 50px; 
+}
+
+#whole-gallery table{
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+#whole-gallery p{
+    text-align: center;
+}
+
+/* geneaology */
+.comment{
+    font-size: .9em;
+    color: #808080;
+    text-align: center;
+}
+
+.over-table{
+    padding-top: 30px;
+    clear: both;
+}
+
+.over-table table{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.over-table td{
+    padding: 30px 50px 0px 50px;
+}
+
+.over-table h2{
+    font-size: 2em;
+    color:  #004d4d;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.descript{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.over-table a{
+    color: #000000;
+}
+
+.over-table a:hover{
+    color: #ffffff;
+    background-color: #009999;
+}
+
+.first{
+    text-align: left;
+}
+
+.second{
+    text-align: center;
+}
+
+.third{
+    text-align: right;
+}
+
+/* breed types, inherited traits */
+#breed-head h2{
+    font-size: 2.5em;
+    color:  #004d4d;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#breed-table a{
+    color: #000000;
+}
+
+#breed-table a:hover{
+    color: #ffffff;
+    background-color: #009999;
+}
+
+#breed-table td{
+    padding: 20px;
+}
+
+.breed-photo{
+    text-align: left;
+    padding: 10px 0px 10px 0px;
+}
+
+.breed-bio{
+    text-align: left;
+    padding: 0px 20px 0px 20px;
+}
+
+.breed-bio h2{
+    font-size: 1.5em;
+    color:  #004d4d;
+}
+
+/* treat, favorite, and healthy pages */
+#recipes-body{
+    margin-left: 350px;
+    padding: 0px 20px 10px 20px;
+    text-align: left;
+}
+
+#recipes-body ul{
+    padding: 15px;
+    list-style-position: outside;
+    list-style-type: square;  
+    list-style-image: url(../images/paw-icon-12.png); 
+}
+
+#recipes-body li{
+    padding: 0px;
+}
+
+#recipes-body a{
+    color: #000000;
+    font-size: 1.15em;
+}
+
+#recipes-body a:hover{
+    color: #ffffff;
+    background-color: #009999;
+}
+
+/* contact page forum */
+#forum{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    margin-left: 350px;
+}
+#forum h2{
+    font-size: 2em;
+    color:  #004d4d;
+}
+
+#forum table{
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 10px;
+    width: 300px;
+}
+
+.click-boxes{
+    text-align: center;
+}
+
+.list-col{
+    text-align: right;
+}
+
+.form-col{
+    text-align: left;
+}
+
+#arya-contact{
+    float: left;
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
