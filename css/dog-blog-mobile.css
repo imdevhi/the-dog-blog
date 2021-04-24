@@ -24,7 +24,7 @@
 
     #heading-text{
         width: 70%;
-        padding-top: 2.5px;
+        padding-top: 2px;
     }
 
     #heading-text h1{
@@ -78,7 +78,7 @@
     /* main body subject to change */
 
     main{
-        padding-top: 25px;
+        padding-top: 10px;
     }
 
     main p{
@@ -104,7 +104,7 @@
 
     #index-body{
         padding-top: 25px;
-        padding-bottom: 100px;
+        padding-bottom: 25px;
     }
 
     #index-body h1{
@@ -122,36 +122,40 @@
     }
 
     .padding{
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 
     #index-about-section{
         width: 80%;
         margin-left: auto;
         margin-right: auto;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .image-1 img{
         width: 100%;
         height: auto;
+        padding-bottom: 10px;
     }
 
     .image-2 img{
         width: 100%;
         height: auto;
+        padding-bottom: 10px;
     }
 
     .image-3 img{
         width: 100%;
         height: auto;
+        padding-bottom: 10px;
     }
 
     .image-4 img{
         width: 100%;
         height: auto;
+        padding-bottom: 10px;
     }
 
     #index-about-section a:hover{
@@ -185,11 +189,11 @@
     }
 
     .top-bottom-text{
-        padding-top: 50px;
+        padding-top: 25px;
     }
 
     .middle-text{
-        padding-top: 50px;
+        padding-top: 25px;
     }
 
     #section-1 ul{
@@ -221,7 +225,7 @@
     }
 
     #section-1{
-        padding-top: 50px;
+        padding-top: 25px;
     }
 
     /* ancestry */
@@ -289,8 +293,8 @@
     footer{
         background-color: #4d4d4d;
         color: #ffffff;
-        padding-top: 25px;
-        padding-bottom: 50px;
+        padding-top: 10px;
+        padding-bottom: 25px;
 
     }
 
@@ -324,11 +328,12 @@
         width: 50%;
         margin-left: 50%;
         text-align: right;
+        padding-top: 2px;
     }
 
     #logo-footer-text p{
         font-family: 'Mouse Memoirs', sans-serif;
-        font-size: 2em;
+        font-size: 1.8em;
     }
 
     #contact-us{
@@ -346,6 +351,7 @@
         width: 50%;
         margin-left: 50%;
         text-align: right;
+        padding-top: 2px;
     }
 
     #page-links{
@@ -372,7 +378,7 @@
     #copyright{
         clear: both;
         text-align: center;
-        padding-top: 15px;
+        padding-top: 10px;
     }
 
 }
