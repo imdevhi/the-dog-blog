@@ -222,8 +222,7 @@
     /* contact */
 
     #contact-form{
-        margin-left: auto;
-        margin-right: auto;
+        text-align: center;
     }
 
     table {
