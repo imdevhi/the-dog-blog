@@ -123,8 +123,7 @@
     }
 
     .padding{
-        padding-top: 5px;
-        padding-bottom: 5px;
+        padding: 10px;
     }
 
     #index-about-section{
@@ -191,10 +190,14 @@
 
     .top-bottom-text{
         padding-top: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .middle-text{
         padding-top: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     #section-1 ul{
@@ -232,8 +235,8 @@
     /* ancestry */
 
     .spacer{
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 
     /* contact */
