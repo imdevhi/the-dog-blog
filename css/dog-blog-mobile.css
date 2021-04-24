@@ -87,10 +87,13 @@
     /* index */
 
     #opening-photo{
-        width: 90%;
-        height: auto;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    #opening-photo img{
+        width: 90%;
+        height: auto;
     }
 
     #index-body{
