@@ -1,0 +1,407 @@
+/* mobile */
+
+@media only screen and (max-width: 600px) {
+    body{
+        font-family: Helvetica, Verdana, Arial, sans-serif;
+        font-size: small;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* heading with logo */
+
+    header{
+        background-color: #ffffff;
+        border: 1.5px solid #4d4d4d;
+    }
+
+    #heading-text{
+        width: 50%;
+        padding-top: 20px;
+        text-align: right;
+    }
+
+    #heading-text h1{
+        font-family: 'Mouse Memoirs', sans-serif;
+        font-size: 4em;
+        color: #4d4d4d;
+    }
+
+    #heading-image{
+        width: 50%;
+        float: right;
+        text-align: left;
+    }
+
+    /* horizontal navigation */
+
+    nav{
+        clear: right;
+        padding-top: 2.5px;
+        padding-bottom: 2.5px;
+        background-color: #ffffff;
+        border-left: 1.5px solid #4d4d4d;
+        border-bottom: 1.5px solid #4d4d4d;
+        border-right: 1.5px solid #4d4d4d;
+    }
+
+    #navigation{
+        text-align: center;
+    }
+
+    #navigation li{
+        display: inline;
+        padding: 0px 75px;
+    }
+
+    #navigation a{
+        font-family: 'Mouse Memoirs', sans-serif;
+        font-size: 1.7em;
+        color: #4d4d4d;
+        text-decoration: none;
+    }
+
+    #navigation a:hover{
+        color: #009999;
+    }
+
+    /* main body subject to change */
+
+    main{
+        padding-top: 25px;
+    }
+
+    main p{
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.5em;
+    }
+
+    main a{
+        font-family: 'Oswald', sans-serif;
+        color: #000000;
+    }
+
+    main a:hover{
+        color: #009999;
+    }
+
+    /* index */
+
+    #opening-photo{
+        text-align: center;
+    }
+
+    #index-body{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 25px;
+        padding-bottom: 100px;
+    }
+
+    #index-body h1{
+        text-align: center;
+        font-family: 'Mouse Memoirs', sans-serif;
+        font-size: 3em;
+        color: #4d4d4d;
+    }
+
+    #index-body h2{
+        text-align: center;
+        font-family: 'Mouse Memoirs', sans-serif;
+        font-size: 3em;
+        color: #4d4d4d;
+    }
+
+    .padding{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #index-about-section{
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #index-about-section li{
+        display: inline;
+    }
+
+    .index{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .index-third{
+        padding-right: 50px;
+    }
+
+    #index-about-section a:hover{
+        opacity: 0.7;
+    }
+
+    /* about */
+
+    .about{
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+
+    .about-third{
+        padding-right: 75px;
+    }
+
+    .title{
+        width: 30%;
+        float: left;
+    }
+
+    .body{
+        width: 70%;
+        margin-left: 30%;
+        padding-top: 15px;
+    }
+
+    #about-2{
+        clear: left;
+    }
+
+    #about-3{
+        clear: left;
+    }
+
+    #about-4{
+        clear: left;
+    }
+
+    /* treats and ancestry */
+
+    .top-bottom-photo{
+        width: 50%;
+        float: left;
+        text-align: center;
+    }
+
+    .top-bottom-photo a:hover{
+        opacity: 0.7;
+    }
+
+    .middle-photo{
+        width: 50%;
+        float: right;
+        text-align: center;
+    }
+
+    .middle-photo a:hover{
+        opacity: 0.7;
+    }
+
+    .top-bottom-text{
+        width: 50%;
+        margin-left: 50%;
+        padding-top: 50px;
+    }
+
+    .middle-text{
+        width: 50%;
+        padding-top: 50px;
+    }
+
+    #section-1 ul{
+        list-style-image: url(./css-images/bone-icon.png);
+    }
+
+    #section-2 ul{
+        list-style-image: url(./css-images/bone-icon.png);
+    }
+
+    #section-3 ul{
+        list-style-image: url(./css-images/bone-icon.png);
+    }
+
+    .recipe li{
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.5em;
+        padding-bottom: 5px;
+    }
+
+    .top-bottom-photo p{
+        font-size: .9em;
+        text-align: left;
+        padding-left: 100px;
+    }
+
+    .middle-photo p{
+        font-size: .9em;
+        text-align: left;
+        padding-left: 100px;
+    }
+
+    #section-1{
+        padding-top: 50px;
+    }
+
+    #section-2{
+        clear: left;
+    }
+
+    #section-3{
+        clear: right;
+    }
+
+    /* ancestry */
+
+    .spacer{
+        clear: both;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    /* contact */
+
+    #contact-form table{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #contact-form td{
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.5em;
+        padding: 5px;
+    }
+
+    #contact-form textarea{
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.1em;
+    }
+
+    #contact-form #submit{
+        font-family: 'Oswald', sans-serif;
+        font-size: 1em;
+        background-color: #009999;
+        color: #ffffff;
+    }
+
+    #contact-form #reset{
+        font-family: 'Oswald', sans-serif;
+        font-size: 1em;
+        background-color: #009999;
+        color: #ffffff;
+    }
+
+    #contact-bottom-text{
+        width: 60%;
+        float: left;
+    }
+
+    #contact-bottom-text h2{
+        text-align: right;
+        font-size: 2.5em;
+    }
+
+    #contact-bottom-image{
+        width: 40%;
+        margin-left: 60%;
+        padding-left: 30px;
+    }
+
+    #contact-bottom-image a:hover{
+        opacity: 0.7;
+    }
+
+    /* footer */
+
+    footer{
+        background-color: #4d4d4d;
+        color: #ffffff;
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+
+    footer p{
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.4em;
+    }
+
+    footer a{
+        color: #ffffff;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: none;
+    }
+
+    footer a:hover{
+        color: #009999;
+    }
+
+    #logo-footer{
+        width: 33%;
+        float: left;
+        text-align: right;
+        border: 2px solid #4d4d4d;
+    }
+
+    #logo-footer-text{
+        width: 90%;
+        float: left;
+    }
+
+    #logo-footer-text p{
+        font-family: 'Mouse Memoirs', sans-serif;
+        font-size: 2em;
+    }
+
+    #logo-footer-logo{
+        padding-top: 15px;
+    }
+
+    #contact-us{
+        width: 33%;
+        float: right;
+        text-align: left;
+        border: 2px solid #4d4d4d;
+    }
+
+    #page-links{
+        width: 33%;
+        margin-left: 33.4%;
+        text-align: center;
+        border: 2px solid #4d4d4d;
+    }
+
+    #page-links a{
+        display: block;
+        font-size: .8em;
+    }
+
+    #contact-text{
+        width: 15%;
+        float: left;
+    }
+
+    #contact-email-logo{
+        padding-top: 15px;
+    }
+
+    #contact-email-logo a:hover{
+        opacity: 0.7;
+    }
+
+    #copyright hr{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        opacity: 0.5;
+    }
+
+    #copyright{
+        clear: both;
+        text-align: center;
+        padding-top: 15px;
+    }
+
+}
