@@ -125,58 +125,19 @@
         display: inline;
     }
 
-    .index{
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-
-    .index-third{
-        padding-right: 50px;
-    }
-
     #index-about-section a:hover{
         opacity: 0.7;
     }
 
     /* about */
 
-    .about{
-        padding-left: 75px;
-        padding-right: 75px;
-    }
-
-    .about-third{
-        padding-right: 75px;
-    }
-
-    .title{
-        width: 30%;
-        float: left;
-    }
-
     .body{
-        width: 70%;
-        margin-left: 30%;
         padding-top: 15px;
-    }
-
-    #about-2{
-        clear: left;
-    }
-
-    #about-3{
-        clear: left;
-    }
-
-    #about-4{
-        clear: left;
     }
 
     /* treats and ancestry */
 
     .top-bottom-photo{
-        width: 50%;
-        float: left;
         text-align: center;
     }
 
@@ -185,8 +146,6 @@
     }
 
     .middle-photo{
-        width: 50%;
-        float: right;
         text-align: center;
     }
 
@@ -195,13 +154,10 @@
     }
 
     .top-bottom-text{
-        width: 50%;
-        margin-left: 50%;
         padding-top: 50px;
     }
 
     .middle-text{
-        width: 50%;
         padding-top: 50px;
     }
 
@@ -226,31 +182,20 @@
     .top-bottom-photo p{
         font-size: .9em;
         text-align: left;
-        padding-left: 100px;
     }
 
     .middle-photo p{
         font-size: .9em;
         text-align: left;
-        padding-left: 100px;
     }
 
     #section-1{
         padding-top: 50px;
     }
 
-    #section-2{
-        clear: left;
-    }
-
-    #section-3{
-        clear: right;
-    }
-
     /* ancestry */
 
     .spacer{
-        clear: both;
         padding-top: 10px;
         padding-bottom: 10px;
     }
@@ -288,19 +233,15 @@
     }
 
     #contact-bottom-text{
-        width: 60%;
-        float: left;
+        text-align: center;
     }
 
     #contact-bottom-text h2{
-        text-align: right;
         font-size: 2.5em;
     }
 
     #contact-bottom-image{
-        width: 40%;
-        margin-left: 60%;
-        padding-left: 30px;
+        text-align: center;
     }
 
     #contact-bottom-image a:hover{
