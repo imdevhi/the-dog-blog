@@ -128,18 +128,24 @@
         padding-bottom: 30px;
     }
 
-    #index-about-section img{
-        padding: 15px;
+    .image-1{
+        width: 25%;
+        float: left;
     }
 
-    #index-about-section ul{
-        list-style-position: inside;
-        list-style: none;
-        padding-left: 0;
+    .image-2{
+        width: 25%;
+        float: left;
     }
 
-    #index-about-section li{
-        display: inline;
+    .image-3{
+        width: 25%;
+        margin-left: 50%;
+    }
+
+    .image-4{
+        width: 25%;
+        float: right;
     }
 
     #index-about-section a:hover{
@@ -169,6 +175,10 @@
 
     #about-4{
         clear: left;
+    }
+
+    #about-bottom{
+        clear: both;
     }
 
     /* treats and ancestry */
