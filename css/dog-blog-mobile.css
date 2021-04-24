@@ -130,32 +130,24 @@
         padding-bottom: 30px;
     }
 
-    .image-1{
+    .image-1 img{
         width: 100%;
         height: auto;
-        margin-left: auto;
-        margin-right: auto;
     }
 
-    .image-2{
+    .image-2 img{
         width: 100%;
         height: auto;
-        margin-left: auto;
-        margin-right: auto;
     }
 
-    .image-3{
+    .image-3 img{
         width: 100%;
         height: auto;
-        margin-left: auto;
-        margin-right: auto;
     }
 
-    .image-4{
+    .image-4 img{
         width: 100%;
         height: auto;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     #index-about-section a:hover{
