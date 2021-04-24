@@ -24,6 +24,7 @@
 
     #heading-text{
         width: 70%;
+        padding-top: 2.5px;
     }
 
     #heading-text h1{
@@ -126,6 +127,9 @@
     }
 
     #index-about-section{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
         padding-top: 30px;
         padding-bottom: 30px;
     }
@@ -313,13 +317,13 @@
     #logo-footer-text{
         width: 50%;
         float: left;
-        text-align: right;
+        text-align: left;
     }
 
     #logo-footer-logo{
         width: 50%;
         margin-left: 50%;
-        text-align: left;
+        text-align: right;
     }
 
     #logo-footer-text p{
@@ -335,13 +339,13 @@
     #contact-text{
         width: 50%;
         float: left;
-        text-align: right;
+        text-align: left;
     }
 
     #contact-email-logo{
         width: 50%;
         margin-left: 50%;
-        text-align: left;
+        text-align: right;
     }
 
     #page-links{
