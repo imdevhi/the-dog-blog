@@ -51,7 +51,6 @@
 
     #navigation li{
         display: inline;
-        padding: 0px 75px;
     }
 
     #navigation a{
@@ -133,10 +132,6 @@
     }
 
     /* about */
-
-    .body{
-        padding-top: 15px;
-    }
 
     /* treats and ancestry */
 
@@ -282,18 +277,9 @@
         border: 2px solid #4d4d4d;
     }
 
-    #logo-footer-text{
-        width: 90%;
-        float: left;
-    }
-
     #logo-footer-text p{
         font-family: 'Mouse Memoirs', sans-serif;
         font-size: 2em;
-    }
-
-    #logo-footer-logo{
-        padding-top: 15px;
     }
 
     #contact-us{
@@ -313,15 +299,6 @@
     #page-links a{
         display: block;
         font-size: .8em;
-    }
-
-    #contact-text{
-        width: 15%;
-        float: left;
-    }
-
-    #contact-email-logo{
-        padding-top: 15px;
     }
 
     #contact-email-logo a:hover{
