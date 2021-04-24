@@ -128,12 +128,12 @@
     }
 
     #index-about-section img{
-        padding-bottom: 15px;
+        padding: 15px;
     }
 
     #index-about-section ul{
         list-style-type: none;
-        padding: 0;
+        margin-left: 0px;
     }
 
     #index-about-section li{
