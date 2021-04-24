@@ -133,14 +133,11 @@
 
     #index-about-section ul{
         list-style-type: none;
+        padding: 0;
     }
 
     #index-about-section li{
         display: block;
-        width: 70%;
-        height: auto;
-        margin: 0;
-        padding: 0px;
     }
 
     #index-about-section a:hover{
