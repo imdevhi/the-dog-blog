@@ -26,11 +26,17 @@
         font-family: 'Mouse Memoirs', sans-serif;
         font-size: 3em;
         color: #4d4d4d;
-        text-align: center;
+        text-align: left;
     }
 
     #heading-image{
-        display: none;
+        width: 40%;
+        float: right;
+    }
+
+    #heading-image img{
+        width: 20%;
+        height: auto;
     }
 
     /* horizontal navigation */
