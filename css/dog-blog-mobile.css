@@ -119,7 +119,6 @@
     }
 
     #index-about-section{
-        text-align: center;
         padding-top: 30px;
         padding-bottom: 30px;
     }
@@ -130,7 +129,6 @@
         margin-left: auto;
         margin-right: auto;
         padding-bottom: 15px;
-        text-align: center;
     }
 
     #index-about-section ul{
@@ -219,12 +217,13 @@
 
     /* contact */
 
-
+    #contact-form{
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     table {
         width:95%;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     input[type=text], textarea {
