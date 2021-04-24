@@ -306,10 +306,7 @@
     }
 
     #logo-footer{
-        width: 33%;
-        float: left;
-        text-align: right;
-        border: 2px solid #4d4d4d;
+        text-align: left;
     }
 
     #logo-footer-text p{
@@ -318,21 +315,15 @@
     }
 
     #contact-us{
-        width: 33%;
-        float: right;
         text-align: left;
-        border: 2px solid #4d4d4d;
     }
 
     #page-links{
-        width: 33%;
-        margin-left: 33.4%;
-        text-align: center;
-        border: 2px solid #4d4d4d;
+        text-align: left;
     }
 
     #page-links a{
-        display: block;
+        display: inline;
         font-size: .8em;
     }
 
