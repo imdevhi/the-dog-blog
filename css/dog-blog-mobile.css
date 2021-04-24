@@ -39,7 +39,7 @@
     }
 
     #heading-image img{
-        width: 50%;
+        width: 70%;
         height: auto;
     }
 
@@ -131,23 +131,27 @@
     }
 
     .image-1 img{
-        width: 100%;
+        width: 80%;
         height: auto;
+        text-align: center;
     }
 
     .image-2 img{
-        width: 100%;
+        width: 80%;
         height: auto;
+        text-align: center;
     }
 
     .image-3 img{
-        width: 100%;
+        width: 80%;
         height: auto;
+        text-align: center;
     }
 
     .image-4 img{
-        width: 100%;
+        width: 80%;
         height: auto;
+        text-align: center;
     }
 
     #index-about-section a:hover{
@@ -306,7 +310,16 @@
     }
 
     #logo-footer{
-        text-align: left;
+        text-align: center;
+    }
+
+    #logo-footer-text{
+        width: 50%;
+        float: left;
+    }
+
+    #logo-footer-logo{
+        width: 50%;
     }
 
     #logo-footer-text p{
@@ -315,11 +328,22 @@
     }
 
     #contact-us{
-        text-align: left;
+        clear: both;
+        text-align: center;
+    }
+
+    #logo-footer-text{
+        width: 50%;
+        float: left;
+    }
+
+    #logo-footer-logo{
+        width: 50%;
     }
 
     #page-links{
-        text-align: left;
+        clear: both;
+        text-align: center;
     }
 
     #page-links a{
