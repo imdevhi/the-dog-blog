@@ -134,8 +134,8 @@
     }
 
     #index-about-section ul{
-        list-style-type: none;
-        margin-left: 0px;
+        list-style: none;
+        padding-left: 0;
     }
 
     #index-about-section li{
