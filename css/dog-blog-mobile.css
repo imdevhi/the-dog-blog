@@ -11,12 +11,15 @@
         font-size: small;
     }
 
+    #everything{
+        width: 100%;
+    }
+
     /* heading with logo */
 
     header{
         background-color: #ffffff;
         border: 1.5px solid #4d4d4d;
-        width: 100%;
     }
 
     #heading-text{
@@ -43,7 +46,6 @@
         border-left: 1.5px solid #4d4d4d;
         border-bottom: 1.5px solid #4d4d4d;
         border-right: 1.5px solid #4d4d4d;
-        width: 100%;
     }
 
     #navigation{
@@ -69,7 +71,6 @@
 
     main{
         padding-top: 25px;
-        width: 100%;
     }
 
     main p{
@@ -263,7 +264,7 @@
         color: #ffffff;
         padding-top: 25px;
         padding-bottom: 50px;
-        width: 100%;
+
     }
 
     footer p{
