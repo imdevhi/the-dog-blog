@@ -1,99 +1,116 @@
 <!DOCTYPE html>
-<html lang=en>
+<html lang="en">
 
     <head>
-        <title>The Dog Blog - Contact</title>
+        <title>The Dog Blog</title>
+        <link rel="shortcut icon" href="./images/dog-blog-logo-footer.png"/>
         <meta charset="utf-8">
-        <meta name="description" content="Have a question? Contact Arya!">
-        <meta name="keywords" content="The Dog Blog, Arya, contact, forum, woof">
-        <link rel="stylesheet" type="text/css" href="./css/final-project.css">
+        <meta name="description" content="Personal blog">
+        <meta name="keywords" content="The Dog Blog, dog, blog, funny, humor, dog parent, comedy">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./css/dog-blog.css">
+        <link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Oswald:wght@300&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <div id="all-body-content">
-        
-
-
-<!-- navigation section -->
-            <h1>&nbsp;</h1>
-            <nav>
-                <div id="nav-link">
-                    <a href="./index.html">Home</a>
-                    <a href="./about.html">About</a>
-                    <a href="./portfolio.html">Portfolio</a>
-                <div class="dropdown">
-                    <button class="button">Geneaology</button>
-                    <div class="drop-items">
-                        <a href="./gene.html">Geneaology</a>
-                        <a href="./gene-breed.html">Breed Types</a>
-                        <a href="./gene-inherit.html">Inherited Traits</a>
-                    </div>
+        <header>
+            <div id="heading">
+                <div id="heading-image">
+                    <img src="images/dog-blog-logo.png" width="150" height="150" alt="Dog blog logo">
                 </div>
-                <div class="dropdown">
-                    <button class="button">Treats</button>
-                    <div class="drop-items">
-                        <a href="./treats.html">Treats</a>
-                        <a href="./treats-favs.html">Arya's Favorites</a>
-                        <a href="./treats-healthy.html">Healthy Options</a>
-                    </div>
+                <div id="heading-text">
+                    <h1>The Dog Blog</h1>
                 </div>
-                    <a href="./contact.html">Contact</a>
-                </div>
-            </nav>
+            </div>
+        </header>
 
+        <nav>
+            <ul id="navigation">
+                <li><a href="./index.html" target="_self">Home</a></li>
+                <li><a href="./about.html" target="_self">About the Dog</a></li>
+                <li><a href="./ancestry.html" target="_self">Ancestry Profile</a></li>
+                <li><a href="./treats.html" target="_self">Treat Recipes</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
 
-<!-- contact forum -->   
-            <main>
-                <div id="arya-contact"><img src="./images/arya-contact-300.jpg" alt="Arya close up" width="300" height="400"></div>
-                <div id="forum">
-                    <h2>Have a question? Contact Arya!</h2>
-                    <form action="#" method="post" enctype="multipart/form-data" name="contact-form">
+        <main>
+
+            <div id="opening-photo">
+                <img src="./images/arya-photo-contact.jpg" width="900" height="506" alt="Close up photo of Arya">
+            </div>
+
+            <div id="index-body">
+                <h1>Contact the Dog!</h1>
+                <p class="padding">Questions? Concerns? Comments? Requests? Go ahead and send Arya a message. You won't get a response, but it'll make you feel better. Arf arf.</p>
+                
+                <div id="contact-form">
+                    <form action="#" method="post" enctype="multipart/form-data" name="contact">
+                    
                         <table>
                             <tr>
-                                <td class="list-col">Name:</td>
-                                <td class="form-col"><input name="name" id="name-box" type="text" size="30" maxlength="20"></td>
+                                <td>First Name:</td>
+                                <td><input id="fname" name="fname" type="text" size="50"></td>
                             </tr>
                             <tr>
-                                <td class="list-col">Email:</td>
-                                <td class="form-col"><input name="email" id="email-box" type="text" size="30" maxlength="20"></td>
+                                <td>Email:</td>
+                                <td><input id="email" name="email" type="text" size="50"></td>
                             </tr>
                             <tr>
-                                <td class="list-col">Subject:</td>
-                                <td class="form-col"><input name="subject" id="subject-box" type="text" size="30" maxlength="20"></td>
+                                <td>Subject:</td>
+                                <td><input id="subject" name="subject" type="text" size="50"></td>
                             </tr>
                             <tr>
-                                <td colspan="2" class="list-col" id="text-box"><textarea cols="40" rows="10">Tell Arya how cute she is...</textarea></td>
-                                
+                                <td colspan="2"><textarea cols="60" rows="10">Write a message...</textarea></td>
                             </tr>
                             <tr>
-                                <td colspan="2" class="click-boxes"><input name="submit" id="submit-box" type="submit" value="Submit">&nbsp;&nbsp;<input name="reset" id="reset-box" type="reset" value="Reset"></td>
+                                <td colspan="2"><input id="submit" name="submit" type="submit" value="Submit">&nbsp;<input id="reset" name="reset" type="reset" value="Reset"></td>
                             </tr>
                         </table>
+                                           
                     </form>
                 </div>
-                <div id="arya-facts">
-                    <h2>**DISCLAIMER ABOUT CONTACT FORUM**</h2>
-                    <p>Now, just to clarify, Arya is quite busy. That means it may take a while before she is able to respond to you. During this pandemic, she's got a lot of guarding and napping to do. Let's be real, you are not her priority.</p> 
-                    <p>You may also notice that the submit and reset buttons above do not actually work. Arya is aware of this technical issue and is doing everything she can to fix the problem. In the meantime, chillax and bake your pups some cookies. This error should be resolved anywhere from a week to more than a week. We cannot give an exact timeline. Arya's got a lot on her plate. She'll get to you later. Woof. &#128062;</p>
+
+                <p class="spacer">&nbsp;</p>
+
+            </div>
+
+        </main>
+
+        <footer>
+            <div id="footer">
+                <div id="logo-footer">
+                    <div id="logo-footer-text">
+                        <p>The Dog Blog</p>
+                    </div>
+                    <div id="logo-footer-logo">
+                        <img src="./images/dog-blog-logo-footer.png" width="50" height="50" alt="Dog blog logo">
+                    </div>
                 </div>
-            </main>
-            
+                <div id="contact-us">
+                    <div id="contact-text">
+                        <p>Contact Us</p>
+                    </div>
+                    <div id="contact-email-logo">
+                        <a href="mailto:this-email-is-fake@website.com" target="_blank" title="Not valid email"><img src="./images/email-footer.png" width="40" height="40" alt="Email logo"></a>
+                    </div>
+                </div>
+                <div id="page-links">
+                    <p>
+                        Page Links<br />
+                        <a href="./about.html" target="_self">About the Dog</a>
+                        <a href="./ancestry.html" target="_self">Ancestry Profile</a>
+                        <a href="./treats.html" target="_self">Treat Recipes</a>
+                        <a href="./contact.html">Contact Us</a>
+                    </p>
+                </div>
+                <div id="copyright">
+                    <hr>
+                    <p class="padding">All Rights Reserved &copy; The Dog Blog.</p>
+                </div>
+            </div>
+        </footer>
 
-<!-- footer section -->
-            
-            <footer>
-                <p>All Rights Reserved &copy; 2021 The Dog Blog</p>
-                <p id="socials">
-                    <a href="https://twitter.com/?lang=en" target="_blank"><img src="./images/footer-icons/logo-twitter-20.png" title="Go to Twitter" alt="Twitter logo" width="20" height="20"></a>
-                    <a href="https://www.snapchat.com/" target="_blank"><img src="./images/footer-icons/logo-snap-20.png" title="Go to Snapchat" alt="Snapchat logo" width="20" height="20"></a>
-                    <a href="https://www.facebook.com/" target="_blank"><img src="./images/footer-icons/logo-face-20.png" title="Go to Facebook" alt="Facebook logo" width="20" height="20"></a>
-                    <a href="https://www.instagram.com/" target="_blank"><img src="./images/footer-icons/logo-insta-20.png" title="Go to Instagram" alt="Instagram logo" width="20" height="20"></a>
-                    <a href="https://www.youtube.com/" target="_blank"><img src="./images/footer-icons/logo-youtube-20.png" title="Go to Youtube" alt="Youtube logo" width="20" height="20"></a>
-                </p>
-            </footer>
-        
-        </div>
     </body>
-
 
 </html>
