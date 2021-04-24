@@ -128,10 +128,6 @@
     }
 
     #index-about-section img{
-        width: 70%;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
         padding-bottom: 15px;
     }
 
@@ -141,9 +137,10 @@
 
     #index-about-section li{
         display: block;
-        margin-left: 0;
-        padding-left: 0px;
-        padding-bottom: 15px;
+        width: 70%;
+        height: auto;
+        margin: 0;
+        padding: 0px;
     }
 
     #index-about-section a:hover{
