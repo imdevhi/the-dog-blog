@@ -24,13 +24,14 @@
 
     #heading-text{
         width: 70%;
+        padding-top: 10px;
     }
 
     #heading-text h1{
         font-family: 'Mouse Memoirs', sans-serif;
         font-size: 3em;
         color: #4d4d4d;
-        text-align: left;
+        text-align: center;
     }
 
     #heading-image{
@@ -133,25 +134,29 @@
     .image-1 img{
         width: 80%;
         height: auto;
-        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .image-2 img{
         width: 80%;
         height: auto;
-        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .image-3 img{
         width: 80%;
         height: auto;
-        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .image-4 img{
         width: 80%;
         height: auto;
-        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #index-about-section a:hover{
@@ -320,6 +325,7 @@
 
     #logo-footer-logo{
         width: 50%;
+        margin-left: 50%;
     }
 
     #logo-footer-text p{
@@ -332,13 +338,14 @@
         text-align: center;
     }
 
-    #logo-footer-text{
+    #contact-text{
         width: 50%;
         float: left;
     }
 
-    #logo-footer-logo{
+    #contact-email-logo{
         width: 50%;
+        margin-left: 50%;
     }
 
     #page-links{
