@@ -1,12 +1,8 @@
 /* mobile */
 
 @media only screen and (max-width: 600px) {
-    html, body {
-        overflow-x: hidden;
-    }
 
     body{
-        position: relative;
         font-family: Helvetica, Verdana, Arial, sans-serif;
         font-size: small;
         width: 100%;
