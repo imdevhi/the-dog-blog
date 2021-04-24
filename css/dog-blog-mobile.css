@@ -215,10 +215,12 @@
 
     /* contact */
 
-    #contact-form{
-        width: 70%;
-        height: auto;
-        text-align: center;
+    table {
+        width:95%;
+    }
+
+    input[type=text], textarea {
+        width:75%;
     }
 
     #contact-form td{
