@@ -132,7 +132,7 @@
     }
 
     #index-about-section ul{
-        list-style-position: outside;
+        list-style-type: none;
     }
 
     #index-about-section li{
