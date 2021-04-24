@@ -6,6 +6,11 @@
         font-family: Helvetica, Verdana, Arial, sans-serif;
         font-size: small;
         width: 100%;
+        position: relative;
+    }
+
+    html, body {
+        overflow-x: hidden;
     }
 
     /* heading with logo */
