@@ -23,7 +23,8 @@
     }
 
     #heading-text{
-        text-align: center;
+        width: 70%;
+        text-align: left;
     }
 
     #heading-text h1{
@@ -33,7 +34,10 @@
     }
 
     #heading-image{
-        text-align: center;
+        width: 30%;
+        height: auto;
+        float: right;
+        text-align: right;
     }
 
     /* horizontal navigation */
