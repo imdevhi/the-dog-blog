@@ -22,22 +22,15 @@
         border: 1.5px solid #4d4d4d;
     }
 
-    #heading-text{
-        width: 70%;
-        text-align: left;
-    }
-
     #heading-text h1{
         font-family: 'Mouse Memoirs', sans-serif;
         font-size: 3em;
         color: #4d4d4d;
+        text-align: center;
     }
 
     #heading-image{
-        width: 30%;
-        height: auto;
-        float: right;
-        text-align: left;
+        display: none;
     }
 
     /* horizontal navigation */
@@ -128,27 +121,23 @@
     }
 
     .image-1{
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
+        width: 100%;
+        height: auto;
     }
 
     .image-2{
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
+        width: 100%;
+        height: auto;
     }
 
     .image-3{
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
+        width: 100%;
+        height: auto;
     }
 
     .image-4{
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
+        width: 100%;
+        height: auto;
     }
 
     #index-about-section a:hover{
