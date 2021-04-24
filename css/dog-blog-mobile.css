@@ -6,6 +6,7 @@
     }
 
     body{
+        position: relative;
         font-family: Helvetica, Verdana, Arial, sans-serif;
         font-size: small;
         width: 100%;
