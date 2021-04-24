@@ -128,17 +128,17 @@
         padding-bottom: 30px;
     }
 
+    #index-about-section img{
+        padding: 15px;
+    }
+
+    #index-about-section ul{
+        list-style-type: none;
+        margin-left: 0px;
+    }
+
     #index-about-section li{
         display: inline;
-    }
-
-    .index{
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-
-    .index-third{
-        padding-right: 50px;
     }
 
     #index-about-section a:hover{
@@ -146,15 +146,6 @@
     }
 
     /* about */
-
-    .about{
-        padding-left: 75px;
-        padding-right: 75px;
-    }
-
-    .about-third{
-        padding-right: 75px;
-    }
 
     .title{
         width: 30%;
