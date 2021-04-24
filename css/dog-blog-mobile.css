@@ -326,10 +326,6 @@
         color: #009999;
     }
 
-    #logo-footer{
-        text-align: center;
-    }
-
     #logo-footer-text{
         width: 50%;
         float: left;
@@ -349,7 +345,6 @@
 
     #contact-us{
         clear: both;
-        text-align: center;
     }
 
     #contact-text{
