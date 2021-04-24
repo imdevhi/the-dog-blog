@@ -24,7 +24,7 @@
 
     #heading-text{
         width: 70%;
-        padding-top: 10px;
+        padding-top: 5px;
     }
 
     #heading-text h1{
@@ -131,9 +131,17 @@
         padding-bottom: 30px;
     }
 
+    .image-1{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .image-1 img{
         width: 80%;
         height: auto;
+    }
+
+    .image-2{
         margin-left: auto;
         margin-right: auto;
     }
@@ -141,6 +149,9 @@
     .image-2 img{
         width: 80%;
         height: auto;
+    }
+
+    .image-3{
         margin-left: auto;
         margin-right: auto;
     }
@@ -148,6 +159,9 @@
     .image-3 img{
         width: 80%;
         height: auto;
+    }
+
+    .image-4{
         margin-left: auto;
         margin-right: auto;
     }
@@ -155,8 +169,6 @@
     .image-4 img{
         width: 80%;
         height: auto;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     #index-about-section a:hover{
@@ -321,11 +333,13 @@
     #logo-footer-text{
         width: 50%;
         float: left;
+        text-align: right;
     }
 
     #logo-footer-logo{
         width: 50%;
         margin-left: 50%;
+        text-align: left;
     }
 
     #logo-footer-text p{
@@ -341,11 +355,13 @@
     #contact-text{
         width: 50%;
         float: left;
+        text-align: right;
     }
 
     #contact-email-logo{
         width: 50%;
         margin-left: 50%;
+        text-align: left;
     }
 
     #page-links{
