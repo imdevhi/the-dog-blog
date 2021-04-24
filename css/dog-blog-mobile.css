@@ -137,7 +137,7 @@
     }
 
     #index-about-section li{
-        display: block;
+        display: inline;
     }
 
     #index-about-section a:hover{
