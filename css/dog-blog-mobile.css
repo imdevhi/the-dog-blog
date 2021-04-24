@@ -131,6 +131,10 @@
         margin-right: auto;
     }
 
+    #index-about-section ul{
+        list-style-position: outside;
+    }
+
     #index-about-section li{
         display: inline;
     }
@@ -210,7 +214,7 @@
 
     /* contact */
 
-    #contact-form table{
+    #contact-form{
         width: 70%;
         height: auto;
         text-align: center;
