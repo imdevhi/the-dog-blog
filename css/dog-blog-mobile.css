@@ -133,16 +133,18 @@
 
     /* treats and ancestry */
 
-    .top-bottom-photo{
-        text-align: center;
+    .top-bottom-photo img{
+        width: 100%;
+        height: auto;
     }
 
     .top-bottom-photo a:hover{
         opacity: 0.7;
     }
 
-    .middle-photo{
-        text-align: center;
+    .middle-photo img{
+        width: 100%;
+        height: auto;
     }
 
     .middle-photo a:hover{
