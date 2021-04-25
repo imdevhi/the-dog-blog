@@ -342,8 +342,14 @@
         color: #ffffff;
     }
 
+    #contact-bottom{
+        border: 2px solid orange;
+    }
+
     #contact-bottom-text{
-        text-align: center;
+        width: 70%;
+        float: left;
+        border: 2px solid orange;
     }
 
     #contact-bottom-text h2{
@@ -351,7 +357,10 @@
     }
 
     #contact-bottom-image{
-        text-align: center;
+        width: 30%;
+        margin-left: 70%;
+        padding-left: 30px;
+        border: 2px solid orange;
     }
 
     #contact-bottom-image a:hover{
