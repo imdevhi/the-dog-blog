@@ -37,7 +37,6 @@
     #heading-image{
         width: 30%;
         float: right;
-        padding-top: 15px;
     }
 
     #heading-image img{
@@ -372,15 +371,14 @@
     #logo-footer-text{
         width: 50%;
         float: left;
-        text-align: center;
+        text-align: right;
         padding-left: 10px;
     }
 
     #logo-footer-logo{
         width: 50%;
         margin-left: 50%;
-        text-align: center;
-        padding-top: 10px;
+        text-align: left;
     }
 
     #logo-footer-text p{
@@ -397,14 +395,13 @@
     #contact-text{
         width: 50%;
         float: left;
-        text-align: center;
-        padding-left: 10px;
+        text-align: right;
     }
 
     #contact-email-logo{
         width: 50%;
         margin-left: 50%;
-        text-align: center;
+        text-align: left;
         padding-top: 10px;
     }
 
