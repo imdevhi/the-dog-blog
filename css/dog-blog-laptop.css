@@ -327,16 +327,11 @@
         color: #ffffff;
     }
 
-    #contact-bottom{
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
     #contact-bottom-text{
         width: 70%;
         float: left;
-        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     #contact-bottom-text h2{
