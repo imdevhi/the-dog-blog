@@ -23,20 +23,21 @@
     }
 
     #heading-text{
-        width: 70%;
+        width: 35%;
         padding-top: 30px;
     }
 
     #heading-text h1{
         font-family: 'Mouse Memoirs', sans-serif;
-        font-size: 3.5em;
+        font-size: 3.75em;
         color: #4d4d4d;
         text-align: center;
     }
 
     #heading-image{
-        width: 30%;
+        width: 35%;
         float: right;
+        text-align: left;
     }
 
     #heading-image img{
