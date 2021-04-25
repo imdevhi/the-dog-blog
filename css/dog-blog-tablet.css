@@ -349,6 +349,7 @@
         padding-top: 20px;
         padding-bottom: 20px;
         text-align: center;
+        border: 2px solid orange;
     }
 
     #contact-bottom-text h2{
@@ -359,6 +360,7 @@
         width: 35%;
         margin-left: 65%;
         text-align: center;
+        border: 2px solid orange;
     }
 
     #contact-bottom-image a:hover{
