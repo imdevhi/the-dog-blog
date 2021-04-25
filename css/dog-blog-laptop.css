@@ -64,7 +64,7 @@
 
     #navigation li{
         display: inline;
-        padding: 0px 50px;
+        padding: 0px 30px;
     }
 
     #navigation a{
@@ -136,30 +136,37 @@
     }
 
     #index-about-section{
-        text-align: center;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
-    .image-1{
-        width: 25%;
-        float: left;
+    .image-1 img{
+        width: 100%;
+        height: auto;
+        padding-bottom: 50px;
     }
 
-    .image-2{
-        width: 25%;
-        float: left;
+    .image-2 img{
+        width: 100%;
+        height: auto;
+        padding-bottom: 50px;
     }
 
-    .image-3{
-        width: 25%;
-        margin-left: 50%;
+    .image-3 img{
+        width: 100%;
+        height: auto;
+        padding-bottom: 40px;
     }
 
-    .image-4{
-        width: 25%;
-        float: right;
+    .image-4 img{
+        width: 100%;
+        height: auto;
+        padding-bottom: 50px;
     }
+
 
     #index-about-section a:hover{
         opacity: 0.7;
@@ -196,20 +203,36 @@
 
     /* treats and ancestry */
 
-    .top-bottom-photo{
-        width: 50%;
-        float: left;
-        text-align: center;
+    #section-1{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
+    .top-bottom-photo img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .middle-photo img{
+        width: 100%;
+        height: auto;
+    }
+
+    #section-2{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #section-3{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
     .top-bottom-photo a:hover{
         opacity: 0.7;
-    }
-
-    .middle-photo{
-        width: 50%;
-        float: right;
-        text-align: center;
     }
 
     .middle-photo a:hover{
@@ -217,14 +240,13 @@
     }
 
     .top-bottom-text{
-        width: 50%;
-        margin-left: 50%;
-        padding-top: 50px;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
 
     .middle-text{
-        width: 50%;
-        padding-top: 50px;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
 
     #section-1 ul{
@@ -248,25 +270,15 @@
     .top-bottom-photo p{
         font-size: .9em;
         text-align: left;
-        padding-left: 100px;
     }
 
     .middle-photo p{
         font-size: .9em;
         text-align: left;
-        padding-left: 100px;
     }
 
     #section-1{
-        padding-top: 50px;
-    }
-
-    #section-2{
-        clear: left;
-    }
-
-    #section-3{
-        clear: right;
+        padding-top: 25px;
     }
 
     /* ancestry */
@@ -279,9 +291,14 @@
 
     /* contact */
 
-    #contact-form table{
+    table {
+        width: 95%;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    input[type=text], textarea {
+        width: 95%;
     }
 
     #contact-form td{
@@ -323,7 +340,7 @@
         width: 35%;
         margin-left: 65%;
         padding-left: 30px;
-        text-align: center;
+        text-align: left;
     }
 
     #contact-bottom-image a:hover{
@@ -390,7 +407,7 @@
         width: 50%;
         float: left;
         text-align: right;
-        padding-right: 10px;
+        padding-right: 15px;
     }
 
     #contact-email-logo{
