@@ -64,7 +64,11 @@
 
     #navigation li{
         display: inline;
-        padding: 0px 30px;
+    }
+
+    .middle-link{
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
     #navigation a{
