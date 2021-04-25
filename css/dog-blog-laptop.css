@@ -28,7 +28,7 @@
     }
 
     #heading-text{
-        width: 60%;
+        width: 50%;
         padding-top: 20px;
         padding-bottom: 20px;
         text-align: right;
@@ -41,8 +41,8 @@
     }
 
     #heading-image{
-        width: 40%;
-        margin-left: 60%;
+        width: 50%;
+        margin-left: 50%;
         float: right;
         text-align: left;
     }
@@ -68,8 +68,8 @@
     }
 
     .middle-link{
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 75px;
+        padding-right: 75px;
     }
 
     #navigation a{
@@ -335,7 +335,7 @@
     #contact-bottom-text{
         width: 65%;
         float: left;
-        text-align: center;
+        text-align: right;
     }
 
     #contact-bottom-text h2{
