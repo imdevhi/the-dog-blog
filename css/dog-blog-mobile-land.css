@@ -23,7 +23,7 @@
     }
 
     #heading-text{
-        width: 70%;
+        width: 65%;
         padding-top: 20px;
     }
 
@@ -35,8 +35,9 @@
     }
 
     #heading-image{
-        width: 30%;
+        width: 35%;
         float: right;
+        text-align: left;
     }
 
     #heading-image img{
