@@ -1,6 +1,6 @@
 /* mobile landscape */
 
-@media only screen and (min-width: 601px) and (max-width: 768px) {
+@media only screen and (min-width: 601px) and (max-width: 992px) {
     html, body {
         overflow-x: hidden;
     }
@@ -342,14 +342,11 @@
         color: #ffffff;
     }
 
-    #contact-bottom{
-        border: 2px solid orange;
-    }
-
     #contact-bottom-text{
         width: 70%;
         float: left;
-        border: 2px solid orange;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     #contact-bottom-text h2{
@@ -360,7 +357,6 @@
         width: 30%;
         margin-left: 70%;
         padding-left: 30px;
-        border: 2px solid orange;
     }
 
     #contact-bottom-image a:hover{
