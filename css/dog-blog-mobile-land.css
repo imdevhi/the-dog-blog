@@ -357,7 +357,8 @@
     #contact-bottom-image{
         width: 35%;
         margin-left: 65%;
-        text-align: center;
+        text-align: left;
+        padding-left: 10px;
     }
 
     #contact-bottom-image a:hover{
