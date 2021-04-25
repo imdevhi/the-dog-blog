@@ -57,9 +57,10 @@
         border-right: 1.5px solid #4d4d4d;
     }
 
-    .mobile-nav-icon{
+
+    .mobile-nav-icon img{
         width: 50%;
-        margin-left: 50%;
+        display: block;
         float: right;
     }
 
