@@ -59,8 +59,8 @@
 
     .mobile-nav-icon{
         width: 50%;
+        margin-left: 50%;
         float: right;
-        text-align: right;
     }
 
     .dropbtn {
