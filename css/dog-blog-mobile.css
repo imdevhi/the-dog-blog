@@ -57,9 +57,8 @@
         border-right: 1.5px solid #4d4d4d;
     }
 
-    .mobile-nav-icon img{
+    .mobile-nav-icon{
         width: 50%;
-        display: block;
         float: right;
         text-align: right;
         border: 2px solid orange;
@@ -80,6 +79,7 @@
         position: relative;
         display: inline-block;
         text-align: center;
+        border: 2px solid orange;
     }
       
     .dropdown-content {
