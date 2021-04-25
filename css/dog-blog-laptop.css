@@ -336,6 +336,7 @@
     #contact-bottom-text{
         width: 70%;
         float: left;
+        padding-left: 30px;
     }
 
     #contact-bottom-text h2{
