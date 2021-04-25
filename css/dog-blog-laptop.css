@@ -31,7 +31,7 @@
         width: 50%;
         padding-top: 20px;
         padding-bottom: 20px;
-        text-align: right;
+        text-align: center;
     }
 
     #heading-text h1{
@@ -44,7 +44,7 @@
         width: 50%;
         margin-left: 50%;
         float: right;
-        text-align: left;
+        text-align: center;
     }
 
     /* horizontal navigation */
