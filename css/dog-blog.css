@@ -36,7 +36,7 @@
 
     /* horizontal navigation */
 
-    nav{
+    #desktop{
         clear: right;
         padding-top: 2.5px;
         padding-bottom: 2.5px;
@@ -64,6 +64,10 @@
 
     #navigation a:hover{
         color: #009999;
+    }
+
+    #mobile-nav{
+        display: none;
     }
 
     /* main body subject to change */
