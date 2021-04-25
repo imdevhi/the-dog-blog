@@ -28,7 +28,7 @@
     }
 
     #heading-text{
-        width: 50%;
+        width: 65%;
         padding-top: 20px;
         padding-bottom: 20px;
         text-align: right;
@@ -41,7 +41,7 @@
     }
 
     #heading-image{
-        width: 50%;
+        width: 35%;
         float: right;
         text-align: left;
     }
@@ -64,7 +64,7 @@
 
     #navigation li{
         display: inline;
-        padding: 0px 75px;
+        padding: 0px 50px;
     }
 
     #navigation a{
@@ -310,19 +310,20 @@
     }
 
     #contact-bottom-text{
-        width: 60%;
+        width: 65%;
         float: left;
+        text-align: center;
     }
 
     #contact-bottom-text h2{
-        text-align: right;
         font-size: 2.5em;
     }
 
     #contact-bottom-image{
-        width: 40%;
-        margin-left: 60%;
+        width: 35%;
+        margin-left: 65%;
         padding-left: 30px;
+        text-align: center;
     }
 
     #contact-bottom-image a:hover{
@@ -334,8 +335,9 @@
     footer{
         background-color: #4d4d4d;
         color: #ffffff;
-        padding-top: 25px;
-        padding-bottom: 50px;
+        padding-top: 10px;
+        padding-bottom: 25px;
+
     }
 
     footer p{
@@ -354,52 +356,53 @@
     }
 
     #logo-footer{
-        width: 33%;
+        width: 50%;
         float: left;
-        text-align: right;
-        border: 2px solid #4d4d4d;
     }
 
     #logo-footer-text{
-        width: 90%;
+        width: 50%;
         float: left;
+        text-align: right;
+        padding-right: 10px;
+    }
+
+    #logo-footer-logo{
+        width: 50%;
+        margin-left: 50%;
+        text-align: left;
+        padding-top: 10px;
+        padding-left: 10px;
     }
 
     #logo-footer-text p{
         font-family: 'Mouse Memoirs', sans-serif;
-        font-size: 2em;
-    }
-
-    #logo-footer-logo{
-        padding-top: 15px;
+        font-size: 1.8em;
     }
 
     #contact-us{
-        width: 33%;
-        float: right;
-        text-align: left;
-        border: 2px solid #4d4d4d;
-    }
-
-    #page-links{
-        width: 33%;
-        margin-left: 33.4%;
-        text-align: center;
-        border: 2px solid #4d4d4d;
-    }
-
-    #page-links a{
-        display: block;
-        font-size: .8em;
+        width: 50%;
+        margin-left: 50%;
+        padding-top: 5px;
     }
 
     #contact-text{
-        width: 15%;
+        width: 50%;
         float: left;
+        text-align: right;
+        padding-right: 10px;
     }
 
     #contact-email-logo{
-        padding-top: 15px;
+        width: 50%;
+        margin-left: 50%;
+        text-align: left;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    #page-links{
+        display: none;
     }
 
     #contact-email-logo a:hover{
@@ -416,7 +419,6 @@
     #copyright{
         clear: both;
         text-align: center;
-        padding-top: 15px;
+        padding-top: 10px;
     }
-
 }
