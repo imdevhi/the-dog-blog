@@ -67,7 +67,7 @@
 
     #navigation a{
         font-family: 'Mouse Memoirs', sans-serif;
-        font-size: 1.7em;
+        font-size: 1.5em;
         color: #4d4d4d;
         text-decoration: none;
     }
@@ -331,6 +331,7 @@
         width: 50%;
         float: left;
         text-align: center;
+        padding-left: 10px;
     }
 
     #logo-footer-logo{
@@ -355,6 +356,7 @@
         width: 50%;
         float: left;
         text-align: center;
+        padding-left: 10px;
     }
 
     #contact-email-logo{
@@ -372,6 +374,7 @@
     #page-links a{
         display: inline;
         font-size: .8em;
+        padding: 5px;
     }
 
     #contact-email-logo a:hover{
