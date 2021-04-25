@@ -344,7 +344,7 @@
     }
 
     #contact-bottom-text{
-        width: 50%;
+        width: 60%;
         float: left;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -352,12 +352,12 @@
     }
 
     #contact-bottom-text h2{
-        font-size: 2em;
+        font-size: 1.8em;
     }
 
     #contact-bottom-image{
-        width: 50%;
-        margin-left: 50%;
+        width: 30%;
+        margin-left: 60%;
         text-align: center;
     }
 
