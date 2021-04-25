@@ -222,14 +222,12 @@
         margin-right: auto;
     }
 
-    .top-bottom-photo{
-        margin-left: auto;
-        margin-right: auto;
+    .top-bottom-photo img{
+        text-align: center;
     }
     
-    .middle-photo{
-        margin-left: auto;
-        margin-right: auto;
+    .middle-photo img{
+        text-align: center;
     }
 
     #section-2{
