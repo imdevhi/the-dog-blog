@@ -223,11 +223,13 @@
     }
 
     .top-bottom-photo img{
-        text-align: center;
+        width: 100%;
+        height: auto;
     }
     
     .middle-photo img{
-        text-align: center;
+        width: 100%;
+        height: auto;
     }
 
     #section-2{
