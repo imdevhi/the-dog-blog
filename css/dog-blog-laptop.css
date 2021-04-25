@@ -327,6 +327,11 @@
         color: #ffffff;
     }
 
+    #contact-bottom{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     #contact-bottom-text{
         width: 60%;
         float: left;
