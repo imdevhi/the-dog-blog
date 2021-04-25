@@ -32,6 +32,7 @@
         padding-top: 20px;
         padding-bottom: 20px;
         text-align: center;
+        border: 2px solid orange;
     }
 
     #heading-text h1{
@@ -45,6 +46,7 @@
         margin-left: 60%;
         float: right;
         text-align: center;
+        border: 2px solid orange;
     }
 
     /* horizontal navigation */
@@ -297,14 +299,9 @@
 
     /* contact */
 
-    table {
-        width: 95%;
+    #contact-form table{
         margin-left: auto;
         margin-right: auto;
-    }
-
-    input[type=text], textarea {
-        width: 75%;
     }
 
     #contact-form td{
