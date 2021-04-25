@@ -344,7 +344,7 @@
     }
 
     #contact-bottom-text{
-        width: 60%;
+        width: 65%;
         float: left;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -356,8 +356,8 @@
     }
 
     #contact-bottom-image{
-        width: 30%;
-        margin-left: 60%;
+        width: 35%;
+        margin-left: 65%;
         text-align: center;
     }
 
