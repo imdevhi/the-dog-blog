@@ -40,7 +40,7 @@
     }
 
     #heading-image img{
-        width: 70%;
+        width: 60%;
         height: auto;
     }
 
@@ -216,8 +216,20 @@
 
     /* treats and ancestry */
 
-    .top-bottom-photo img{
-        width: 70%;
+    #section-1{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #section-2{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #section-3{
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -226,26 +238,16 @@
         opacity: 0.7;
     }
 
-    .middle-photo img{
-        width: 70%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
     .middle-photo a:hover{
         opacity: 0.7;
     }
 
     .top-bottom-text{
         padding-top: 25px;
-        padding-left: 10px;
-        padding-right: 10px;
     }
 
     .middle-text{
         padding-top: 25px;
-        padding-left: 10px;
-        padding-right: 10px;
     }
 
     #section-1 ul{
