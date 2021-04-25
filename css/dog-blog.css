@@ -53,7 +53,11 @@
 
     #navigation li{
         display: inline;
-        padding: 0px 75px;
+    }
+
+    .middle-link{
+        padding-left: 75px;
+        padding-right: 75px;
     }
 
     #navigation a{
