@@ -400,14 +400,7 @@
     }
 
     #page-links{
-        clear: both;
-        text-align: center;
-    }
-
-    #page-links a{
-        display: inline;
-        font-size: .8em;
-        padding: 5px;
+        display: none;
     }
 
     #contact-email-logo a:hover{
