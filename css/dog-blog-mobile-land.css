@@ -210,6 +210,7 @@
 
     #about-bottom{
         clear: both;
+        padding-bottom: 25px;
     }
 
     .body{
@@ -257,10 +258,12 @@
 
     .top-bottom-text{
         padding-top: 25px;
+        padding-bottom: 25px;
     }
 
     .middle-text{
         padding-top: 25px;
+        padding-bottom: 25px;
     }
 
     #section-1 ul{
