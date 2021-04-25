@@ -332,11 +332,11 @@
         float: left;
         padding-top: 10px;
         padding-bottom: 10px;
-        padding-left: 30px;
     }
 
     #contact-bottom-text h2{
         font-size: 2em;
+        text-align: right;
     }
 
     #contact-bottom-image{
