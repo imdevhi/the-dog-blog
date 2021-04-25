@@ -28,7 +28,7 @@
     }
 
     #heading-text{
-        width: 50%;
+        width: 60%;
         padding-top: 20px;
         padding-bottom: 20px;
         text-align: right;
@@ -41,7 +41,7 @@
     }
 
     #heading-image{
-        width: 50%;
+        width: 40%;
         float: right;
         text-align: left;
     }
@@ -327,7 +327,7 @@
     }
 
     #contact-bottom-text{
-        width: 70%;
+        width: 80%;
         float: left;
         text-align: right;
     }
@@ -337,8 +337,7 @@
     }
 
     #contact-bottom-image{
-        width: 30%;
-        margin-left: 70%;
+        width: 20%;
         text-align: left;
     }
 
