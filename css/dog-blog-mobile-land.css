@@ -62,13 +62,15 @@
         color: #4d4d4d;
         padding: 15px;
         font-family: 'Mouse Memoirs', sans-serif;
-        border: none;
+        font-size: 1.5em;
+        border: 1.5px solid #4d4d4d;
         cursor: pointer;
     }
       
     .dropdown {
         position: relative;
         display: inline-block;
+        text-align: center;
     }
       
     .dropdown-content {
@@ -89,8 +91,8 @@
     }
       
     .dropdown-content a:hover {
-          background-color: #4d4d4d;
-          color: #009999;
+        background-color: #4d4d4d;
+        color: #009999;
     }
       
     .dropdown:hover .dropdown-content {
@@ -100,7 +102,6 @@
     .dropdown:hover .dropbtn {
         background-color: #009999;
     }
-
 
     #desktop{
         display: none;
