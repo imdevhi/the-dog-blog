@@ -330,6 +330,8 @@
         width: 80%;
         float: left;
         text-align: right;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     #contact-bottom-text h2{
