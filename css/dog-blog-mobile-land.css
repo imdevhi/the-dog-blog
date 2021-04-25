@@ -29,7 +29,7 @@
 
     #heading-text h1{
         font-family: 'Mouse Memoirs', sans-serif;
-        font-size: 4em;
+        font-size: 3.25em;
         color: #4d4d4d;
         text-align: center;
     }
@@ -69,7 +69,7 @@
         color: #4d4d4d;
         padding: 10px;
         font-family: 'Mouse Memoirs', sans-serif;
-        font-size: 2em;
+        font-size: 1.8em;
         border: 1.5px solid #4d4d4d;
         cursor: pointer;
     }
@@ -78,7 +78,7 @@
         width: 50%;
         position: relative;
         display: inline-block;
-        padding-left: 20px;
+        padding-left: 10px;
     }
       
     .dropdown-content{
