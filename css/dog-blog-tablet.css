@@ -346,7 +346,7 @@
     #contact-bottom-text{
         width: 65%;
         float: left;
-        text-align: center;
+        text-align: left;
     }
 
     #contact-bottom-text h2{
@@ -357,7 +357,7 @@
         width: 35%;
         margin-left: 65%;
         padding-left: 30px;
-        text-align: left;
+        text-align: right;
     }
 
     #contact-bottom-image a:hover{
