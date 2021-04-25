@@ -37,6 +37,7 @@
 
     #heading-image{
         width: 50%;
+        margin-left: 50%;
         float: right;
         text-align: center;
     }
