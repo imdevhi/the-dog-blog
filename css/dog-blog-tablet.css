@@ -346,21 +346,18 @@
     #contact-bottom-text{
         width: 65%;
         float: left;
-        padding-top: 20px;
-        padding-bottom: 20px;
         text-align: center;
-        border: 2px solid orange;
     }
 
     #contact-bottom-text h2{
-        font-size: 1.8em;
+        font-size: 2em;
     }
 
     #contact-bottom-image{
         width: 35%;
         margin-left: 65%;
-        text-align: center;
-        border: 2px solid orange;
+        padding-left: 30px;
+        text-align: left;
     }
 
     #contact-bottom-image a:hover{
