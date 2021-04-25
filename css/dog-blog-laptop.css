@@ -28,7 +28,7 @@
     }
 
     #heading-text{
-        width: 65%;
+        width: 60%;
         padding-top: 20px;
         padding-bottom: 20px;
         text-align: right;
@@ -41,7 +41,8 @@
     }
 
     #heading-image{
-        width: 35%;
+        width: 40%;
+        margin-left: 60%;
         float: right;
         text-align: left;
     }
@@ -108,8 +109,9 @@
 
     /* index */
 
-    #opening-photo{
-        text-align: center;
+    #opening-photo img{
+        width: 100%;
+        height: auto;
     }
 
     #index-body{
@@ -140,7 +142,7 @@
     }
 
     #index-about-section{
-        width: 80%;
+        width: 70%;
         margin-left: auto;
         margin-right: auto;
         padding-top: 20px;
@@ -343,7 +345,6 @@
     #contact-bottom-image{
         width: 35%;
         margin-left: 65%;
-        padding-left: 30px;
         text-align: left;
     }
 
