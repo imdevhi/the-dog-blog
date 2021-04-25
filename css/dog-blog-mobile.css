@@ -57,11 +57,11 @@
         border-right: 1.5px solid #4d4d4d;
     }
 
-
     .mobile-nav-icon img{
         width: 50%;
         display: block;
         float: right;
+        text-align: right;
     }
 
     .dropbtn {
@@ -75,6 +75,7 @@
     }
       
     .dropdown {
+        width: 50%;
         position: relative;
         display: inline-block;
         text-align: center;
